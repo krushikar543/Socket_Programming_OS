@@ -1,0 +1,8 @@
+How to run the code:
+1) first, run create_admin.c. This will create an admin with username,admin1 and password,passwd;
+2) Then run server.c and then client.c in another terminal.
+
+While logging in:
+first login as admin, with the credentials mentioned above.
+Then admin will have the rights to create single_user_accounts and joint_user_accounts(2 users), where we create users.
+NOTE : You can not login as single_user or joint_user without logging in as admin because no user exits initially.
